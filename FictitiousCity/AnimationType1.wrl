@@ -1,0 +1,61 @@
+#VRML V2.0 utf8
+
+#Primera animación
+
+DEF PEPA Transform{
+
+children [
+
+Shape{
+
+appearance Appearance {
+
+material Material{
+
+diffuseColor 0 0 1
+
+
+}
+
+}
+
+geometry Cylinder {
+radius 2
+height 9
+}
+
+}
+
+]
+
+}
+
+DEF TIMER TimeSensor {
+
+loop TRUE
+
+cycleInterval 10
+
+startTime 1 #comienzo automático
+
+stopTime 0 #comienzo automático
+
+}
+
+#mueve la esfera 10 metros para arriba
+
+DEF SPHERE_MOVE PositionInterpolator {
+
+key [ 0, 1 ]
+
+keyValue [ 0 0 0, 0 -2000 0]
+
+}
+
+#Primero la ruta del timer en la positioninterpolator
+
+ROUTE TIMER.fraction_changed TO SPHERE_MOVE.set_fraction
+
+#luego el interpolator en el transform
+
+ROUTE SPHERE_MOVE.value_changed TO PEPA.set_translation 

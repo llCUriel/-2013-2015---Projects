@@ -1,0 +1,408 @@
+#VRML V2.0 utf8
+#---------------------------------------------ESCALON UNO------------------------------------------------------------------------
+Transform {
+translation 0 0 0
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+size 10 2 2
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON UNO-----------------------------------------------------------------------
+
+
+
+
+#---------------------------------------------ESCALON DOS------------------------------------------------------------------------
+Transform {
+translation 0 2 -2
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 10 2 2
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON DOS------------------------------------------------------------------------
+
+
+
+#---------------------------------------------ESCALON TRES------------------------------------------------------------------------
+Transform {
+translation 0 4 -4
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 10 2 2
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON TRES------------------------------------------------------------------------
+
+
+
+#---------------------------------------------ESCALON CUATRO------------------------------------------------------------------------
+Transform {
+translation 0 6 -6
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 10 2 2
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON CUATRO------------------------------------------------------------------------
+
+
+
+
+#---------------------------------------------ESCALON CINCO------------------------------------------------------------------------
+Transform {
+translation 0 8 -8
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 10 2 2
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON CINCO------------------------------------------------------------------------
+
+#---------------------------------------------ESCALON SEIS------------------------------------------------------------------------
+Transform {
+translation 0 10 -10
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 10 2 2
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON SEIS------------------------------------------------------------------------
+
+
+#---------------------------------------------ESCALON SIETE------------------------------------------------------------------------
+Transform {
+translation 0 12 -12
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 10 2 2
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON SIETE------------------------------------------------------------------------
+
+#---------------------------------------------ESCALON OCHO------------------------------------------------------------------------
+Transform {
+translation 0 14 -14
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 10 2 2
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON OCHO------------------------------------------------------------------------
+
+
+#---------------------------------------------ESCALON NUEVE------------------------------------------------------------------------
+Transform {
+translation 0 16 -16
+
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 10 2 2
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON NUEVE------------------------------------------------------------------------
+
+
+#---------------------------------------------PISO NUMERO 1 ESCALERAS------------------------------------------------------------------------
+Transform {
+translation 0 18 -22
+
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "PISO(1).png"
+					}
+			}
+			geometry Box{
+    size 10 2 10
+
+	}
+		}
+  ]
+}
+#---------------------------------------------PISO NUMERO 1 ESCALERAS------------------------------------------------------------------------
+#---------------------------------------------ESCALON 1 ESCALERAS 2------------------------------------------------------------------------
+Transform {
+translation 6 20 -22
+
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 2 2 10
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON 1 ESCALERAS 2------------------------------------------------------------------------
+
+
+#---------------------------------------------ESCALON 2 ESCALERAS 2------------------------------------------------------------------------
+Transform {
+translation 8 22 -22
+
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 2 2 10
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON 2 ESCALERAS 2------------------------------------------------------------------------
+
+#---------------------------------------------ESCALON 3 ESCALERAS 2------------------------------------------------------------------------
+Transform {
+translation 10 24 -22
+
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 2 2 10
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON 3 ESCALERAS 2------------------------------------------------------------------------
+
+#---------------------------------------------ESCALON 4 ESCALERAS 2------------------------------------------------------------------------
+Transform {
+translation 12 26 -22
+
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 2 2 10
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON 4 ESCALERAS 2------------------------------------------------------------------------
+#---------------------------------------------ESCALON 5 ESCALERAS 2------------------------------------------------------------------------
+Transform {
+translation 14 28 -22
+
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 2 2 10
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON 5 ESCALERAS 2------------------------------------------------------------------------
+
+#---------------------------------------------ESCALON 6 ESCALERAS 2------------------------------------------------------------------------
+Transform {
+translation 16 30 -22
+
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 2 2 10
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON 6 ESCALERAS 2------------------------------------------------------------------------
+#---------------------------------------------ESCALON 7 ESCALERAS 2------------------------------------------------------------------------
+Transform {
+translation 18 32 -22
+
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 2 2 10
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON 7 ESCALERAS 2------------------------------------------------------------------------
+
+#---------------------------------------------ESCALON 8 ESCALERAS 2------------------------------------------------------------------------
+Transform {
+translation 20 34 -22
+
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 2 2 10
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON 8 ESCALERAS 2------------------------------------------------------------------------
+#---------------------------------------------ESCALON 9 ESCALERAS 2------------------------------------------------------------------------
+Transform {
+translation 22 36 -22
+
+
+
+	children[
+		Shape{
+			appearance Appearance{
+				texture ImageTexture {
+					url "TEXTURAMADERA(1).jpg"
+					}
+			}
+			geometry Box{
+    size 2 2 10
+
+	}
+		}
+  ]
+}
+#---------------------------------------------ESCALON 9 ESCALERAS 2------------------------------------------------------------------------
+

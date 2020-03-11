@@ -1,0 +1,226 @@
+#VRML V2.0 utf8
+Transform{ 
+    translation 0 0 0
+    children [ 
+    Inline{
+    url"TORRE.wrl"
+    } 
+    ] 
+}
+
+
+Transform{ 
+    translation 685 340 135
+    scale 0.1 0.1 0.1
+    children [ 
+    Inline{
+    url"LLL.wrl"
+    } 
+    ] 
+}
+
+Transform{ 
+    translation -600 0 300
+    scale 0.4 0.4 0.4
+    rotation 0 1 0 0.5236
+    children [ 
+    Inline{
+    url"EDIFICIOOFICIAL.wrl"
+    } 
+    ] 
+}
+
+
+Transform{ 
+    translation -1000 0 300
+    scale 0.4 0.4 0.4
+    rotation 0 1 0 1.0472
+    children [ 
+    Inline{
+    url"EDIFICIOOFICIAL4.wrl"
+    } 
+    ] 
+}
+
+
+
+Transform{ 
+    translation -580 120 0
+    scale 1.5 1.5 1.5
+    rotation 0 1 0 0.5236
+    children [ 
+    Inline{
+    url"tun.wrl"
+    } 
+    ] 
+}
+
+
+Transform{ 
+    translation -730 130 0
+    scale 1.5 1.5 1.5
+    rotation 0 1 0 0.5236
+    children [ 
+    Inline{
+    url"tun.wrl"
+    } 
+    ] 
+}
+
+
+Transform{ 
+    translation -880 120 0
+    scale 1.5 1.5 1.5
+    rotation 0 1 0 0.5236
+    children [ 
+    Inline{
+    url"tun.wrl"
+    } 
+    ] 
+}
+
+Transform{ 
+    translation -1030 130 0
+    scale 1.5 1.5 1.5
+    rotation 0 1 0 0.5236
+    children [ 
+    Inline{
+    url"tun.wrl"
+    } 
+    ] 
+}
+
+
+Transform{ 
+    translation -1180 120 0
+    scale 1.5 1.5 1.5
+    rotation 0 1 0 0.5236
+    children [ 
+    Inline{
+    url"tun.wrl"
+    } 
+    ] 
+}
+
+
+DEF TEXT Transform {
+
+    translation 600 325 200
+
+    children [
+
+    Anchor {
+
+    url ["Elbueno.wrl"]
+
+    children [
+
+Shape {
+
+    appearance Appearance {
+
+    material Material {
+
+    diffuseColor 1 1 0
+
+    }
+
+    }
+
+geometry Text {
+
+    string ["ENTRAR A LA RESIDENCIA"]
+
+    fontStyle FontStyle {
+
+    family ["Comic Sans MS", "SANS"]
+
+    size 20
+
+    justify ["CENTER"]
+
+    }
+
+    }
+
+    }
+
+    ]
+
+    }
+
+    ]
+
+    } 
+
+
+
+Transform{ 
+    translation 1100 40 -300
+    scale 10 10 10
+    children [ 
+    Inline{
+    url"CASAM.wrl"
+    } 
+    ] 
+}
+
+
+Transform{ 
+    translation -1900 40 -300
+    scale 10 10 10
+    children [ 
+    Inline{
+    url"CASAM2.wrl"
+    } 
+    ] 
+}
+
+
+Transform{ 
+    translation -1800 40 50
+    rotation 0 1 0 3.1416
+    scale 6 6 6
+    children [ 
+    Inline{
+    url"CASAM3.wrl"
+    } 
+    ] 
+}
+
+
+Transform{ 
+    translation -1400 40 50
+    rotation 0 1 0 3.1416
+    scale 6 6 6
+    children [ 
+    Inline{
+    url"CASAM4.wrl"
+    } 
+    ] 
+}
+
+
+Transform{ 
+    translation 1700 40 50
+    rotation 0 1 0 3.1416
+    scale 6 6 6
+    children [ 
+    Inline{
+    url"CASAM4.wrl"
+    } 
+    ] 
+}
+
+
+Transform{ 
+    translation 1300 40 50
+    rotation 0 1 0 3.1416
+    scale 6 6 6
+    children [ 
+    Inline{
+    url"CASAM3.wrl"
+    } 
+    ] 
+}
+

@@ -1,0 +1,340 @@
+#VRML V2.0 utf8
+
+#CUBO
+Transform {
+translation 0.0 0.0 0.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 3 30.0 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 2.0 0.0 0.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 3 30 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 0.0 1.5 2.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 3 60 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 2.0 1.5 2.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 3 60 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 1.0 1.35 0.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 20 3 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 1.0 1.35 0.5
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 20 3 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 1.0 1.35 1.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 20 3 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 1.0 1.35 1.5
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 20.0 3 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 1.0 1.35 2.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 20 3 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 10 18.5 20
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 20 3 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 1.0 2.35 2.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 20 3 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 1.0 2.85 2.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 20 3 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 1.0 3.35 2.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 20 3 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 1.0 3.85 2.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 20 3 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 1.0 4.35 2.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 20 3 3 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 0.0 1.35 1.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 3 3 20 }
+}
+]
+}
+
+
+#CUBO
+Transform {
+translation 2.0 1.35 1.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+emissiveColor 0 0 0
+diffuseColor 1 1 0
+specularColor 1 1 0
+ambientIntensity 0.2
+transparency 0
+}
+}
+geometry Box { size 3 3 20 }
+}
+]
+}

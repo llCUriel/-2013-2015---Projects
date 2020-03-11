@@ -1,0 +1,950 @@
+#VRML V2.0 utf8
+
+Transform{ 
+translation -20 -10 0
+scale 0.001 0.001 0.001
+children [ 
+Inline{
+url"[AQUI VIENE TODO].wrl"
+} 
+] 
+}
+
+
+
+
+
+Shape {                                           #Piso_PB
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 30.0 0.5 15.0 }
+}
+
+Transform {
+translation -20.0 0.0 7.5
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 10.0 0.5 20.0}
+} ] }                                             #Fin_piso
+
+
+
+Transform {                #1 
+translation 14.75 3.0 0.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 0.5 6.0 15.0 }
+} ] }                      #FIN_1
+
+
+
+DEF lventa Transform {     #2  
+translation 13.5 3.0 -7.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 } 
+}
+geometry Box {
+       size 3.0 6.0 0.5 }
+} ] }
+Transform {
+translation -7.5 0.0 0.0
+children [
+USE lventa
+] } 
+DEF bventa Transform {    
+translation 10.0 1.0 -7.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 5.0 2.0 0.5 }
+} ] }
+Transform {
+translation 0.0 4.0 0.0
+children [
+USE bventa
+] }
+DEF ventana Transform {      
+translation 10.0 3.0 -7.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+transparency 0.9 } 
+}                                     
+geometry Box {
+       size 5.0 2.0 0.5 }
+} ] }                      #FIN_2
+
+
+
+Transform {                #3
+translation -10.0 0.0 0.0
+children [
+USE lventa
+] } 
+Transform {
+translation -17.5 0.0 0.0
+children [
+USE lventa
+] } 
+Transform {
+translation -10.0 4.0 0.0
+children [
+USE bventa
+] }
+Transform {
+translation -10.0 0.0 0.0
+children [
+USE bventa
+] }
+Transform {
+translation -10.0 0.0 0.0
+children [
+USE ventana
+] }                        #FIN_3
+
+
+
+Transform {                #4 
+translation -20.0 0.0 0.0
+children [
+USE lventa
+] }
+Transform {
+translation -27.25 0.0 0.0
+children [
+USE lventa
+] } 
+Transform {
+translation -20.0 4.0 0.0
+children [
+USE bventa
+] }
+Transform {
+translation -20.0 0.0 0.0
+children [
+USE bventa
+] }
+Transform {
+translation -20.0 0.0 0.0
+children [
+USE ventana
+] }                        #FIN_4
+
+
+
+DEF sal Transform {        #5
+translation -15.0 3.0 -3.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 0.5 6.0 1.0 }
+} ] }
+Transform {
+translation 0.0 0.0 -3.5
+children [
+USE sal
+] }
+DEF sala Transform {                
+translation -15.0 5.0 -4.5
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 0.5 2.0 3.0 }
+} ] }                      #FIN_5
+
+
+
+Transform {                #6
+translation -30.0 0.0 5.0
+children [
+USE lventa
+] }
+Transform {
+translation -37.0 0.0 5.0
+children [
+USE lventa
+] }
+Transform {
+translation -30.0 4.0 5.0
+children [
+USE bventa
+] }
+Transform {
+translation -30.0 0.0 5.0
+children [
+USE bventa
+] }
+Transform {
+translation -30.0 0.0 5.0
+children [
+USE ventana
+] }                        #FIN_6
+
+
+
+Transform {                #7
+translation -24.75 3.0 7.5
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 0.5 6.0 20.0 }
+} ] }                      #FIN_7
+
+
+
+Transform {                #8
+translation -30.0 0.0 24.5
+children [
+USE lventa
+] }
+Transform {
+translation -37.0 0.0 24.5
+children [
+USE lventa
+] }
+Transform {
+translation -30.0 4.0 24.5
+children [
+USE bventa
+] }
+Transform {
+translation -30.0 0.0 24.5
+children [
+USE bventa
+] }
+Transform {
+translation -30.0 0.0 24.5
+children [
+USE ventana
+] }                        #FIN_8
+
+
+
+Transform {                #9
+translation -15.0 3.0 12.5
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 0.5 6.0 10.0 }
+} ] }                      #FIN_9
+
+
+
+Transform {                #10
+translation -13.5 3.0 7.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 3.5 6.0 0.5 }
+} ] }
+Transform {                
+translation -6.5 3.0 7.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 3.5 6.0 0.5 }
+} ] }
+Transform {                
+translation -10.0 5.25 7.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 3.5 1.5 0.5 }
+} ] }
+                      #FIN_10 
+ 
+
+
+Transform {                #11
+translation 0.0 3.0 7.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 10.0 6.0 0.5}
+} ] }                      #FIN_11
+
+
+
+Transform {                #12
+translation 0.0 0.0 14.5
+children [
+USE lventa
+] }
+Transform {
+translation -7.5 0.0 14.5
+children [
+USE lventa
+] }
+Transform {
+translation 0.0 0.0 14.5
+children [
+USE bventa
+] }
+Transform {
+translation 0.0 4.0 14.5
+children [
+USE bventa
+] }
+Transform {
+translation 0.0 0.0 14.5
+children [
+USE ventana
+] }                        #FIN_12
+
+
+
+Transform {                #13 
+translation 5.0 3.0 2.5
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 0.5 6.0 10.0 }
+} ] }                      #FIN_13
+
+
+
+Transform {                #14
+translation -5.0 3.0 4.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 0.5 6.0 7.0 }
+} ] }
+Transform {                
+translation -5.0 5.0 0.0
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 0.5 2.0 4.75 }
+} ] }                      #FIN_14
+
+
+
+Transform {                #15
+translation -15.0 3.0 0.5
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 0.5 6.0 6.0 }
+} ] }
+Transform {                
+translation -15.0 3.0 6.75
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 0.5 6.0 1.5 }
+} ] }
+Transform {                
+translation -15.0 5.0 4.5
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 0.5 2.0 3.0 }
+} ] }                      #FIN_15  
+
+
+
+Transform {                #16
+translation -22.0 3.0 7.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 6.0 6.0 0.5 }
+} ] }
+Transform {                
+translation -15.5 3.0 7.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 1.5 6.0 0.5 }
+} ] }
+Transform {                
+translation -17.75 5.0 7.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 3.0 2.0 0.5 }
+} ] }                      #FIN_16 
+
+
+
+Transform {                #17
+translation -12.0 3.0 -2.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 6.0 6.0 0.5 }
+} ] }
+Transform {                
+translation -5.5 3.0 -2.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 1.5 6.0 0.5 }
+} ] }
+Transform {                
+translation -7.5 5.0 -2.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 3.0 2.0 0.5 }
+} ] }                     #FIN_17
+
+
+
+Transform {                #18
+translation 0.0 3.0 -2.25
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0.36 0.2 0.09 }
+}
+geometry Box {
+       size 10.0 6.0 0.5 }
+} ] }                      #FIN_18 
+
+
+
+Transform {                #19  
+translation 20.0 0.0 0.0
+children [
+USE sal
+] }
+Transform {
+translation 20.0 0.0 -3.5
+children [
+USE sal
+] }
+Transform {
+translation 20.0 0.0 0.0
+children [
+USE sala
+] }                        #FIN_19
+
+
+
+
+
+#CUARTO_DE_TELEVISION
+
+Transform {               #Cuadro                     
+translation 4.9 4.0 3.0
+rotation 1 0 0 1.57
+children [
+Shape{
+appearance Appearance  {
+texture ImageTexture {url "verde.jpg"}
+}
+geometry Box {
+       size 0.5 2.0 2.0 } 
+} ] }                     #FIN_Cuadro
+
+
+Transform {               #Mesa_centro
+translation 0.0 0.5 3.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  0.71 0.65 0.26}
+}
+geometry Box {
+       size 2 1 2 }
+} ] }                     #FIN_Mesa_centro 
+
+
+Transform {               #Sillon_izq
+translation 3.0 0.5 3.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  0.71 0.65 0.26}
+}
+geometry Box {
+       size 1.5 1.0 2.0 }
+} ] }
+DEF ag Transform {
+translation 3.0 0.5 2.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  0.71 0.65 0.26}
+}
+geometry Box {
+       size 1 1.5 0.5 }
+} ] }
+Transform {
+translation 3.0 0.5 4.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor 0.71 0.65 0.26}
+}
+geometry Box {
+       size 1 1.5 0.5 }
+} ] }
+Transform {
+translation 3.5 1.0 3.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor 0.71 0.65 0.26}
+}
+geometry Box {
+       size 0.5 2.0 2.5 }
+} ] }                    #FIN_Sillon_izq                 
+
+
+Transform {              #Sillon_der
+translation -3.5 1.0 3.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  0.71 0.65 0.26}
+}
+geometry Box {
+       size 0.5 2.0 2.5 }
+} ] }
+Transform {
+translation -3.0 0.5 4.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  0.71 0.65 0.26}
+}
+geometry Box {
+       size 1 1.5 0.5 }
+} ] }
+Transform {
+translation -3.0 0.5 2.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor 0.71 0.65 0.26}
+}
+geometry Box {
+       size 1 1.5 0.5 }
+} ] }
+Transform {
+translation -3.0 0.5 3.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  0.71 0.65 0.26}
+}
+geometry Box {
+       size 1.5 1 2 }
+} ] }                    #FIN_sillon_der
+
+
+Transform {              #Sillon_princ
+translation 0.0 0.5 6.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  0.71 0.65 0.26}
+}
+geometry Box {
+       size 5.0 1 1.5 }
+} ] }
+
+Transform {
+translation 0.0 1.0 6.5
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  0.71 0.65 0.26}
+}
+geometry Box {
+       size 5.5 2 0.5 }
+} ] }
+
+Transform {
+translation 2.5 1.0 6.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  0.71 0.65 0.26}
+}
+geometry Box {
+       size 0.5 1 1.0 }
+} ] }
+
+Transform {
+translation -2.5 1.0 6.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  0.71 0.65 0.26}
+}
+geometry Box {
+       size 0.5 1 1.0 }
+} ] }                    #FIN_sillon_princ
+
+
+DEF l1 Transform {       #Floreros
+translation -3.5 1.0 -1.5
+children [
+Shape{
+appearance Appearance  {
+material Material {
+diffuseColor 0.86        0.16       0.16 }
+}
+geometry Cone {
+          height 1.5       
+          bottomRadius 0.5}
+} ] }
+Transform {
+translation 7.0 0.0 0.0
+children [
+USE l1
+] }
+
+DEF l2 Transform {
+translation -3.5 1.0 -1.5
+children [
+Shape{
+appearance Appearance  {
+material Material {
+diffuseColor 0.86 0.16 0.16 }
+}
+geometry Cylinder {
+          height 2.0       
+          radius 0.30}
+} ] }
+Transform {
+translation 7.0 0.0 0.0
+children [
+USE l2
+] }
+
+DEF l3 Transform {
+translation -3.5 1.5 -1.5
+rotation 1 0 0 3.14
+children [
+Shape{
+appearance Appearance  {
+material Material {
+diffuseColor 0.86 0.16 0.16 }
+}
+geometry Cone {
+          height 1.5      
+          bottomRadius 0.5}
+} ] }
+Transform {
+translation 7.0 0.0 0.0
+children [
+USE l3
+] }                     #FIN_floreros
+
+Transform {             #TV 
+translation 0.0 3.0 -2.20
+children [
+Shape{                  
+appearance Appearance  {
+texture MovieTexture {
+loop TRUE
+speed 1
+url ["one.mpg"] }
+}
+geometry Box {
+       size 5.0 4.0 0.5 }
+} ] }                   #FIN_TV
+
+#FIN_cuarto_television
+
+
+
+
+#CUARTO
+
+Transform {                 #Cama  
+translation -20.0 1.0 14.0
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  0.99 0.9 0.79}
+}
+geometry Box {
+       size 4.0 1.0 6.0 }
+} ] }
+Transform {
+translation -20.0 1.1 13.5
+children [
+Shape{
+appearance Appearance {
+material Material {
+diffuseColor  1 0 0}
+}
+geometry Box {
+       size 4.0 1.0 5.0 }
+} ] }                        #FIN_cama               
+
+Transform {                  #Ropero                  
+translation -22.5 3.0 8.0
+children [
+Shape{
+appearance Appearance  {
+texture ImageTexture {url "maderin.jpg"}
+}
+geometry Box {
+       size 4.0 5.0 1.0 } 
+} ] }                        #FIN_ropero
+
+DEF buro Transform {         #Buros
+translation -23.5 1.0 16.0
+children [
+Shape {
+appearance Appearance {
+texture ImageTexture {url "jaja.jpg"}
+}
+geometry Box {
+       size 2.0 2.0 2.0 }
+} ] } 
+Transform {
+translation 7.5 0.0 0.0
+children [
+USE buro 
+] }                          #FIN_buros
+
+#FIN_cuarto
+
+
+#COCINA
+
+Transform {                  #Mesa
+translation -20.0 0.25 2.5
+children [
+Shape{
+appearance Appearance {
+texture ImageTexture {url "mesa.jpg"}
+}
+geometry Cylinder {
+       height 0.25
+       radius 1.0 }
+} ] }
+Transform {
+translation -20.0 1.0 2.5
+children [
+Shape{
+appearance Appearance {
+texture ImageTexture {url "mesa.jpg"}
+}
+geometry Cylinder {
+       height 2.0
+       radius 0.25 }
+} ] }               
+Transform {
+translation -20.0 0.25 2.5
+children [
+Shape{
+appearance Appearance {
+texture ImageTexture {url "mesa.jpg"}
+}
+geometry Cylinder {
+       height 0.25
+       radius 1.0 }
+} ] }
+Transform {
+translation -20.0 2.0 2.5
+children [
+Shape{
+appearance Appearance {
+texture ImageTexture {url "mesa.jpg"}
+}
+geometry Cylinder {
+       height 0.25
+       radius 2.0 }
+} ] }                          #FIN_Mesa 
+
+
+
+
+#ESTUDIO
+
+DEF meg Transform {
+translation 14.0 1.0 3.0
+children [
+Shape{
+appearance Appearance {
+texture ImageTexture {url "maderin.jpg"}
+}
+geometry Cylinder {
+       height 2.0
+       radius 0.25 }
+} ] }
+Transform {
+translation 0.0 0.0 3.5
+children [
+USE meg 
+] }
+Transform {
+translation -3.0 0.0 0.0
+children [
+USE meg 
+] }
+Transform {
+translation -3.0 0.0 3.5
+children [
+USE meg 
+] }
+Transform {
+translation 12.5 2.0 4.75
+children [ 
+Shape {
+appearance Appearance {
+texture MovieTexture { url "maderin.jpg"}
+}
+geometry Box {
+       size 4.0 0.25 4.0 }
+} ] }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Transform {               #Pasto                     
+translation 0.0 -0.5 0.0
+children [
+Shape{
+appearance Appearance  {
+texture ImageTexture {url "pastin.jpg"}
+}
+geometry Box {
+       size 100.0 1.0 100.0 } 
+} ] }                     #FIN_pasto
+
+

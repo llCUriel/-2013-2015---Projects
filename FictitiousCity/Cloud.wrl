@@ -1,0 +1,54 @@
+#VRML V2.0 utf8
+
+
+
+
+
+
+Switch {
+  choice [
+
+
+DEF RELOJ 
+Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "VISTA.jpg"} }
+      geometry Cylinder { 
+radius 55
+height 5
+}
+
+
+
+    }
+    
+    DEF PEPA Group {
+      children [
+
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+DEF PEPA2 Group {
+      children [
+        Transform { 
+
+translation -600 -40 -400 scale 1.5 1.5 1.5    children USE PEPA }
+         
+      ]
+    }
+
+
+# EL GRAN BIG
+
+
+
+
+

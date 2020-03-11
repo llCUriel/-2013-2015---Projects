@@ -1,0 +1,51 @@
+#VRML V2.0 utf8
+
+
+
+
+Transform {
+translation 595 100 -380
+rotation 0 1 0 0.5236
+children [
+
+Shape{
+
+appearance Appearance {
+
+texture ImageTexture {
+url ["LALA.jpg"]
+
+}
+
+}
+
+geometry Box{
+size 50 5 180
+ }
+}
+]
+}
+
+Transform {
+translation 595 110 -380
+rotation 0 1 0 0.5236
+children [
+
+Shape{
+
+appearance Appearance {
+
+texture ImageTexture {
+url ["LALA.jpg"]
+
+}
+
+}
+
+geometry Box{
+size 50 5 180
+ }
+}
+]
+}
+

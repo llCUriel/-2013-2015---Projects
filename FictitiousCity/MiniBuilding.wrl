@@ -1,0 +1,51 @@
+#VRML V2.0 utf8
+
+DEF TEXT Transform {
+
+center 1.5 0 0
+
+children [
+
+Anchor {
+
+url ["TORRE.wrl"]
+
+children [
+
+Shape {
+
+appearance Appearance {
+
+material Material {
+
+diffuseColor 1 1 0
+
+}
+
+}
+
+geometry Text {
+
+string ["Mirta y Rodolfo"]
+
+fontStyle FontStyle {
+
+family ["Comic Sans MS", "SANS"]
+
+size 2.0
+
+justify ["CENTER"]
+
+}
+
+}
+
+}
+
+]
+
+}
+
+]
+
+} 

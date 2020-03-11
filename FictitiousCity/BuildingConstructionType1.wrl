@@ -1,0 +1,669 @@
+#VRML V2.0 utf8
+
+
+
+Switch {
+  choice [
+
+
+
+
+
+DEF DECORACIONDEVENTANAPAM Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 2.5 2.5 5}
+    }
+
+
+
+
+
+
+
+    DEF COLUMNA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 25 5}
+    }
+
+DEF PUERTA Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "COLUMNA.jpg"
+					} }
+      geometry Box { 
+size 5 10 5}
+    }
+
+
+DEF PUERTATS Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "PUERTADEPTA.jpg"
+					} }
+      geometry Box { 
+size 5 10 5}
+    }
+
+
+DEF PARAGUAS Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608
+					} }
+      geometry Box { 
+size 20 5 10}
+    }
+
+DEF PARAGUAS22 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.5294 0.8078 0.9804
+transparency 0.5
+					} }
+      geometry Box { 
+size 10 15 2}
+    }
+
+
+DEF VENTANALARRIBA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608
+					} }
+      geometry Box { 
+size 5 15 5}
+    }
+
+
+
+DEF ARRIBADEARRIBA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608
+					} }
+      geometry Box { 
+size 10 5 5}
+    }
+
+DEF PUERTAARRIBA Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "COLUMNA.jpg"
+					} }
+      geometry Box { 
+size 15 5 5}
+    }
+    
+
+
+DEF SUPERIORPUERTA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 15 10 5}
+    }
+
+DEF PISOSEGUNDO Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 20 5}
+    }
+DEF PISOSEGUNDO22 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 30 5}
+    }
+
+DEF PISOSEGUNDO33 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 15 10 5}
+    }
+
+
+DEF PRIMEROSEGUNDO Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 45 5}
+    }
+
+
+
+
+DEF PARTEDEARRIBAVENTANA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 15 5 5}
+    }
+
+
+DEF CUARENTA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 15 5 5}
+    }
+
+
+DEF HAA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 5 5}
+    }
+    
+
+DEF COLUMNACHICA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 15 5}
+    }
+
+DEF ARRIBACHICA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 15 5 5}
+    }
+
+DEF DECORACIONDEVENTANA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.16 0.14 0.13 } }
+      geometry Box { 
+size 5 2.5 5}
+    }
+
+
+DEF DECORACIONDEVENTANA2 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 2.5 2.5}
+    }
+
+
+DEF VENTANAL Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.5294 0.8078 0.9804
+transparency 0.5  } }
+      geometry Box { 
+size 5 10 5}
+    }
+
+DEF VENTANAL2 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.5294 0.8078 0.9804
+transparency 0.5  } }
+      geometry Box { 
+size 5 50 5}
+    }
+
+
+DEF BASES Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608
+  } }
+      geometry Box { 
+size 5 5 35}
+    }
+DEF DECORACIONDEVENTANA3 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.16 0.14 0.13 } }
+      geometry Box { 
+size 5 2.5 35}
+    }
+
+DEF DECORACIONDEVENTANA4 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 2.5 2.5 35}
+    }
+    
+
+
+DEF DECORACIONDEVENTANA5 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.16 0.14 0.13   } }
+      geometry Box { 
+size 5 5 10}
+    }
+
+DEF DECORACIONDEVENTANA6 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.16 0.14 0.13 } }
+      geometry Box { 
+size 2.5 2.5 15}
+    }
+
+DEF DECORACIONDEVENTANA7 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 2.5 15}
+    }
+    
+
+DEF DECORACIONDEVENTANA10 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 5 35}
+    }
+
+
+
+DEF ESCALERAS1 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.16 0.14 0.13 } }
+      geometry Box { 
+size 5 2.5 5}
+    }
+
+DEF ESCALERAS2 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 2.5 2.5 5}
+    }
+
+DEF ESCALERAS23 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 2.5 2.5}
+    }
+
+
+DEF ESCALERAS2ARRIBA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 5 15}
+    }
+
+
+DEF BLOQUES Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "COLUMNA.jpg" } }
+      geometry Box { 
+size 5 50 5}
+    }
+
+
+DEF CABEZA Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "COLUMNA.jpg" } }
+      geometry Box { 
+size 5 2.5 5}
+    }
+
+DEF CABEZA2 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "COLUMNA.jpg" } }
+      geometry Box { 
+size 5 2.5 15}
+    }
+
+
+DEF CRISTAL Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.5294 0.8078 0.9804
+transparency 0.5} }
+      geometry Box { 
+size 25 2.5 5}
+    }
+
+
+DEF VENTANA2 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 5 15 5}
+    }
+DEF VENTANAARRIBA2 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 15 5 5}
+    }
+
+
+
+DEF VP Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 25 10 10}
+    }
+
+DEF VP2 Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.9608 0.9608 0.9608 } }
+      geometry Box { 
+size 15 10 5}
+    }
+
+
+
+DEF LADEDIEZ Shape {
+      appearance Appearance {
+       material Material { diffuseColor 0.5294 0.8078 0.9804
+transparency 0.5 } }
+      geometry Box { 
+size 5 10 5}
+    }
+DEF MADERAATRAS Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "COLUMNA.jpg" } }
+      geometry Box { 
+size 5 45 5}
+    }
+
+DEF MADERAATRASARRIBA Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "COLUMNA.jpg" } }
+      geometry Box { 
+size 15 5 5}
+    }
+
+
+
+DEF PISOF Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "PISOCASA.jpg" } }
+      geometry Box { 
+size 40 5 15}
+    }
+
+
+DEF PISOF2 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "PISOCASA.jpg" } }
+      geometry Box { 
+size 35 5 15}
+    }
+
+
+DEF PISOF3 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "PISOCASA.jpg" } }
+      geometry Box { 
+size 25 5 5}
+    }
+
+
+DEF PISOF4 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "PISOCASA.jpg" } }
+      geometry Box { 
+size 20 5 5}
+    }
+
+
+DEF PISOF5 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+					url "PISOCASA.jpg" } }
+      geometry Box { 
+size 5 5 15}
+    }
+
+DEF MEDIANA Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.5294 0.8078 0.9804
+transparency 0.5  } }
+      geometry Box { 
+size 15 10 5}
+    }
+
+
+
+
+
+  ]
+}
+
+DEF FINAL 
+#
+Transform{ translation 17.5 5 -15 children USE PISOF}
+Transform{ translation 15 5 -30 children USE PISOF2}
+
+
+
+
+#
+Transform{ translation 0 0 0 children USE COLUMNA}
+Transform{ translation -5 0 -5 children USE COLUMNA}
+Transform{ translation 5 -7.5 -5 children USE PUERTA}
+
+Transform{ translation 10 -7.5 -5 children USE PUERTATS}
+
+Transform{ translation 15 -7.5 -5 children USE PUERTA}
+Transform{ translation 10 0 -5 children USE PUERTAARRIBA}
+Transform{ translation 20 0 0 children USE COLUMNA}
+
+Transform{ translation 10 7.5 0 children USE SUPERIORPUERTA}
+Transform{ translation 40 0 0 children USE COLUMNA}
+Transform{ translation 30 10 0 children USE PARTEDEARRIBAVENTANA}
+#
+Transform{ translation 10 5 -5 children USE PISOF3}
+Transform{ translation 7.5 5 -40 children USE PISOF4}
+Transform{ translation 35 5 -35 children USE PISOF5}
+#
+Transform{ translation 25 -5 -5 children USE COLUMNACHICA}
+Transform{ translation 35 -5 -5 children USE COLUMNACHICA}
+Transform{ translation 30 5 -5 children USE ARRIBACHICA}
+Transform{ translation 30 -11.25 -5 children USE DECORACIONDEVENTANA}
+Transform{ translation 30 -8.75 -6.25 children USE DECORACIONDEVENTANA2}
+Transform{ translation 30 -2.5 -10 children USE VENTANAL}
+Transform{ translation -5 -10 -25 children USE BASES}
+Transform{ translation -5 -6.25 -25 children USE DECORACIONDEVENTANA3}
+Transform{ translation -3.75 -3.75 -25 children USE DECORACIONDEVENTANA4}
+Transform{ translation -5 0 -45 children USE COLUMNA}
+Transform{ translation -5 0 -37.5 children USE DECORACIONDEVENTANA5}
+Transform{ translation -5 0 -37.5 children USE DECORACIONDEVENTANA5}
+Transform{ translation -5 0 -12.5 children USE DECORACIONDEVENTANA5}
+Transform{ translation -3.75 1.25 -25 children USE DECORACIONDEVENTANA6}
+Transform{ translation -5 -1.25 -25 children USE DECORACIONDEVENTANA7}
+Transform{ translation -5 3.75 -25 children USE DECORACIONDEVENTANA3}
+Transform{ translation -3.75 6.25 -25 children USE DECORACIONDEVENTANA4}
+Transform{ translation -5 10 -25 children USE DECORACIONDEVENTANA10}
+Transform{ translation 40 -11.25 -5 children USE ESCALERAS1}
+Transform{ translation 38.75 -8.75 -5 children USE ESCALERAS2}
+Transform{ translation 40 -6.25 -5 children USE ESCALERAS1}
+Transform{ translation 38.75 -3.75 -5 children USE ESCALERAS2}
+Transform{ translation 40 -1.25 -5 children USE ESCALERAS1}
+Transform{ translation 38.75 1.25 -5 children USE ESCALERAS2}
+Transform{ translation 40 3.75 -5 children USE ESCALERAS1}
+Transform{ translation 38.75 6.25 -5 children USE ESCALERAS2}
+Transform{ translation 40 -11.25 -10 children USE ESCALERAS1}
+Transform{ translation 38.75 -8.75 -10 children USE ESCALERAS2}
+Transform{ translation 40 -6.25 -10 children USE ESCALERAS1}
+Transform{ translation 38.75 -3.75 -10 children USE ESCALERAS2}
+Transform{ translation 40 -1.25 -10 children USE ESCALERAS1}
+Transform{ translation 38.75 1.25 -10 children USE ESCALERAS2}
+Transform{ translation 40 3.75 -10 children USE ESCALERAS1}
+Transform{ translation 38.75 6.25 -10 children USE ESCALERAS2}
+Transform{ translation 40 0 -15 children USE COLUMNA}
+Transform{ translation 40 10 -7.5 children USE ESCALERAS2ARRIBA}
+Transform{ translation 40 0 -20 children USE COLUMNA}
+Transform{ translation 35 12.5 -25 children USE BLOQUES}
+Transform{ translation 40 12.5 -30 children USE BLOQUES}
+Transform{ translation 40 12.5 -40 children USE BLOQUES}
+Transform{ translation 35 12.5 -45 children USE BLOQUES}
+Transform{ translation 40 12.5 -35 children USE VENTANAL2}
+Transform{ translation 40 -8.75 -25 children USE CABEZA}
+Transform{ translation 40 -3.75 -25 children USE CABEZA}
+Transform{ translation 40 1.25 -25 children USE CABEZA}
+Transform{ translation 40 6.25 -25 children USE CABEZA}
+Transform{ translation 40 11.25 -25 children USE CABEZA}
+Transform{ translation 40 16.25 -25 children USE CABEZA}
+Transform{ translation 40 21.25 -25 children USE CABEZA}
+Transform{ translation 40 26.25 -25 children USE CABEZA}
+Transform{ translation 40 31.25 -25 children USE CABEZA}
+Transform{ translation 40 36.25 -25 children USE CABEZA}
+Transform{ translation 40 -8.75 -45 children USE CABEZA}
+Transform{ translation 40 -3.75 -45 children USE CABEZA}
+Transform{ translation 40 1.25 -45 children USE CABEZA}
+Transform{ translation 40 6.25 -45 children USE CABEZA}
+Transform{ translation 40 11.25 -45 children USE CABEZA}
+Transform{ translation 40 16.25 -45 children USE CABEZA}
+Transform{ translation 40 21.25 -45 children USE CABEZA}
+Transform{ translation 40 26.25 -45 children USE CABEZA}
+Transform{ translation 40 31.25 -45 children USE CABEZA}
+Transform{ translation 40 36.25 -45 children USE CABEZA}
+Transform{ translation 40 38.75 -35  children USE CABEZA2}
+Transform{ translation 35 38.75 -30 children USE CABEZA}
+Transform{ translation 30 38.75 -30 children USE CABEZA}
+Transform{ translation 25 38.75 -30 children USE CABEZA}
+Transform{ translation 20 38.75 -30 children USE CABEZA}
+Transform{ translation 15 38.75 -30 children USE CABEZA}
+Transform{ translation 35 38.75 -40 children USE CABEZA}
+Transform{ translation 30 38.75 -40 children USE CABEZA}
+Transform{ translation 25 38.75 -40 children USE CABEZA}
+Transform{ translation 20 38.75 -40 children USE CABEZA}
+Transform{ translation 15 38.75 -40 children USE CABEZA}
+Transform{ translation 10 38.75 -35 children USE CABEZA}
+Transform{ translation 10 38.75 -40 children USE CABEZA}
+Transform{ translation 10 38.75 -30 children USE CABEZA}
+Transform{ translation 25 38.75 -35 children USE CRISTAL}
+Transform{ translation 30 -5 -40 children USE VENTANA2}
+Transform{ translation 20 -5 -40 children USE VENTANA2}
+Transform{ translation 25 5 -40 children USE VENTANAARRIBA2}
+Transform{ translation 25 -11.25 -40 children USE ESCALERAS1}
+Transform{ translation 25 -8.75 -38.75 children USE ESCALERAS23}
+Transform{ translation 25 -2.5 -35 children USE LADEDIEZ}
+Transform{ translation 15 10 -45 children USE MADERAATRAS}
+Transform{ translation 25 30 -45 children USE MADERAATRASARRIBA}
+Transform{ translation 10 10 -45 children USE PRIMEROSEGUNDO}
+Transform{ translation -5 22.5 -45 children USE PISOSEGUNDO}
+Transform{ translation 2.5 30 -45 children USE ARRIBADEARRIBA}
+
+Transform{ translation 5 -11.25 -45 children USE ESCALERAS1}
+Transform{ translation 5 -8.75 -43.75 children USE ESCALERAS23}
+
+Transform{ translation 5 -6.25 -45 children USE ESCALERAS1}
+Transform{ translation 5 -3.75 -43.75 children USE ESCALERAS23}
+
+Transform{ translation 5 -1.25 -45 children USE ESCALERAS1}
+Transform{ translation 5 1.25 -43.75 children USE ESCALERAS23}
+Transform{ translation 5 3.75 -45 children USE ESCALERAS1}
+Transform{ translation 5 6.25 -43.75 children USE ESCALERAS23}
+Transform{ translation 5 8.75 -45 children USE ESCALERAS1}
+Transform{ translation 5 11.25 -43.75 children USE ESCALERAS23}
+Transform{ translation 5 13.75 -45 children USE ESCALERAS1}
+Transform{ translation 5 16.25 -43.75 children USE ESCALERAS23}
+Transform{ translation 5 18.75 -45 children USE ESCALERAS1}
+Transform{ translation 5 21.25 -43.75 children USE ESCALERAS23}
+Transform{ translation 5 23.75 -45 children USE ESCALERAS1}
+Transform{ translation 5 26.5 -43.75 children USE ESCALERAS23}
+#
+
+Transform{ translation 0 -11.25 -45 children USE ESCALERAS1}
+Transform{ translation 0 -8.75 -43.75 children USE ESCALERAS23}
+
+Transform{ translation 0 -6.25 -45 children USE ESCALERAS1}
+Transform{ translation 0 -3.75 -43.75 children USE ESCALERAS23}
+
+Transform{ translation 0 -1.25 -45 children USE ESCALERAS1}
+Transform{ translation 0 1.25 -43.75 children USE ESCALERAS23}
+Transform{ translation 0 3.75 -45 children USE ESCALERAS1}
+Transform{ translation 0 6.25 -43.75 children USE ESCALERAS23}
+Transform{ translation 0 8.75 -45 children USE ESCALERAS1}
+Transform{ translation 0 11.25 -43.75 children USE ESCALERAS23}
+Transform{ translation 0 13.75 -45 children USE ESCALERAS1}
+Transform{ translation 0 16.25 -43.75 children USE ESCALERAS23}
+Transform{ translation 0 18.75 -45 children USE ESCALERAS1}
+Transform{ translation 0 21.25 -43.75 children USE ESCALERAS23}
+Transform{ translation 0 23.75 -45 children USE ESCALERAS1}
+Transform{ translation 0 26.5 -43.75 children USE ESCALERAS23}
+
+
+
+Transform{ translation 30 11.25 -40 children USE ESCALERAS1}
+Transform{ translation 30 8.75 -38.75 children USE ESCALERAS23}
+
+Transform{ translation 25 11.25 -40 children USE ESCALERAS1}
+Transform{ translation 25 8.75 -38.75 children USE ESCALERAS23}
+
+Transform{ translation 20 11.25 -40 children USE ESCALERAS1}
+Transform{ translation 20 8.75 -38.75 children USE ESCALERAS23}
+
+
+Transform{ translation 20 23.75 -40 children USE ESCALERAS1}
+Transform{ translation 20 26.25 -38.75 children USE ESCALERAS23}
+Transform{ translation 25 23.75 -40 children USE ESCALERAS1}
+Transform{ translation 25 26.25 -38.75 children USE ESCALERAS23}
+Transform{ translation 30 23.75 -40 children USE ESCALERAS1}
+Transform{ translation 30 26.25 -38.75 children USE ESCALERAS23}
+
+
+Transform{ translation 25 17.5 -40 children USE MEDIANA}
+
+
+
+Transform{ translation 35 22.5 -40 children USE PISOSEGUNDO22}
+Transform{ translation 15 22.5 -40 children USE PISOSEGUNDO22}
+Transform{ translation 25 32.5 -40 children USE PISOSEGUNDO33}
+Transform{ translation 30 22.5 -25 children USE PISOSEGUNDO22}
+
+
+Transform{ translation 25 32.5 -32.5 children USE VP}
+Transform{ translation 20 32.5 -25 children USE VP2}
+
+
+Transform{ translation 5 10 -5 children USE CUARENTA}
+Transform{ translation 35 10 -5 children USE HAA}
+# LOLOLOLO
+Transform{ translation 30 15 -5 children USE VENTANALARRIBA}
+Transform{ translation 30 15 -10 children USE VENTANALARRIBA}
+
+Transform{ translation 15 15 -5 children USE VENTANALARRIBA}
+Transform{ translation 15 15 -10 children USE VENTANALARRIBA}
+
+
+#######
+Transform{ translation 22.5 25 -7.5 children USE PARAGUAS}
+Transform{ translation 22.5 15 -10 children USE PARAGUAS22}
+Transform{ translation 10 16.25 -5 children USE DECORACIONDEVENTANA}
+Transform{ translation 10 13.75 -6.25 children USE DECORACIONDEVENTANA2}
+Transform{ translation 5 16.25 -5 children USE DECORACIONDEVENTANA}
+Transform{ translation 5 13.75 -6.25 children USE DECORACIONDEVENTANA2}
+Transform{ translation 0 16.25 -5 children USE DECORACIONDEVENTANA}
+Transform{ translation 0 13.75 -6.25 children USE DECORACIONDEVENTANA2}
+Transform{ translation -2.5 13.75 -6.25 children USE DECORACIONDEVENTANA2}
+Transform{ translation -5 16.25 -5 children USE DECORACIONDEVENTANA}
+
+Transform{ translation -3.75 13.75 -10 children USE DECORACIONDEVENTANAPAM}
+Transform{ translation -3.75 13.75 -15 children USE DECORACIONDEVENTANAPAM}
+Transform{ translation -5 16.25 -10 children USE DECORACIONDEVENTANA}
+Transform{ translation -5 16.25 -15 children USE DECORACIONDEVENTANA}
+
+
+Transform{ translation -3.75 13.75 -20 children USE DECORACIONDEVENTANAPAM}
+Transform{ translation -3.75 13.75 -25 children USE DECORACIONDEVENTANAPAM}
+Transform{ translation -5 16.25 -20 children USE DECORACIONDEVENTANA}
+Transform{ translation -5 16.25 -25 children USE DECORACIONDEVENTANA}
+
+Transform{ translation -3.75 13.75 -30 children USE DECORACIONDEVENTANAPAM}
+Transform{ translation -3.75 13.75 -35 children USE DECORACIONDEVENTANAPAM}
+Transform{ translation -5 16.25 -30 children USE DECORACIONDEVENTANA}
+Transform{ translation -5 16.25 -35 children USE DECORACIONDEVENTANA}
+Transform{ translation -3.75 13.75 -40 children USE DECORACIONDEVENTANAPAM}
+Transform{ translation -5 16.25 -40 children USE DECORACIONDEVENTANA}

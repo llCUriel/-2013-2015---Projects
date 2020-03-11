@@ -1,0 +1,349 @@
+#VRML V2.0 utf8
+
+
+DEF PEPA123 Transform{
+translation 150 1300 -200
+
+children [
+
+Shape{
+
+appearance Appearance {
+
+texture ImageTexture {
+
+url [ "HOTEL.jpg"]
+
+}
+
+}
+
+geometry Sphere {
+radius 100
+ }
+}
+]
+}
+DEF TIMER TimeSensor {
+loop TRUE
+cycleInterval 3
+startTime 1 #comienzo automático
+stopTime 0 #comienzo automático
+
+}
+DEF SPHERE_ROTATE OrientationInterpolator {
+
+key [ 0, 0.5, 1 ]
+
+keyValue [ 0 1 0 0, 0 1 0 3.14, 0 1 0 6.28 ]
+
+}
+
+ROUTE TIMER.fraction_changed TO SPHERE_ROTATE.set_fraction
+ROUTE SPHERE_ROTATE.value_changed TO PEPA123.set_rotation
+
+
+
+
+Switch {
+  choice [
+
+DEF VENTANA
+Shape {
+      appearance Appearance {
+     material Material {
+diffuseColor 0.7529 0.7529 0.7529
+transparency 0.6  }}
+      geometry Box { 
+size 100 50 10
+}
+    }
+
+DEF PARED
+Shape {
+      appearance Appearance {
+     material Material {
+diffuseColor 0.5412 0.1686 0.8863
+  }}
+      geometry Box { 
+size 100 50 10
+}
+    }
+
+DEF ESQUINA
+Shape {
+      appearance Appearance {
+     material Material {
+diffuseColor 0.1843 0.3098 0.3098
+  }}
+      geometry Cylinder { 
+radius 25
+height 150
+}
+    }
+
+
+
+DEF VENTANA2
+Shape {
+      appearance Appearance {
+     material Material {
+diffuseColor 0.7529 0.7529 0.7529
+transparency 0.6  }}
+      geometry Box { 
+size 10 50 100
+}
+    }
+
+DEF PARED2
+Shape {
+      appearance Appearance {
+     material Material {
+diffuseColor 1.0 0.8549 0.7255
+  }}
+      geometry Box { 
+size 10 50 100
+}
+    }
+
+
+
+DEF PISO
+Shape {
+      appearance Appearance {
+      texture MovieTexture {
+
+loop TRUE
+
+speed 1
+
+url "VISUAL.avi" 
+
+}}
+      geometry Box { 
+size 600 10 600
+}
+    }
+
+DEF BOLA
+Shape {
+      appearance Appearance {
+      texture ImageTexture {
+					url "EI.jpg"}}
+      geometry Cylinder { 
+radius 20
+height 400
+}
+    }
+
+
+
+
+
+
+    
+    DEF PEPA Group {
+      children [
+
+Transform { 
+translation 0 0 0    children USE VENTANA }
+Transform { 
+translation 0 -50 0    children USE PARED }
+Transform { 
+translation 0 50 0    children USE PARED }
+Transform { 
+translation 75 0 0    children USE ESQUINA }
+
+Transform { 
+translation -75 0 0    children USE ESQUINA }
+
+Transform { 
+translation 150 0 0    children USE VENTANA }
+Transform { 
+translation 150 -50 0    children USE PARED }
+Transform { 
+translation 150 50 0    children USE PARED }
+
+Transform { 
+translation 225 0 0    children USE ESQUINA }
+
+Transform { 
+translation 300 0 0    children USE VENTANA }
+Transform { 
+translation 300 -50 0    children USE PARED }
+Transform { 
+translation 300 50 0    children USE PARED }
+
+Transform { 
+translation 375 0 0    children USE ESQUINA }
+
+#################ATRAS
+Transform { 
+translation 0 0 -450    children USE VENTANA }
+Transform { 
+translation 0 -50 -450    children USE PARED }
+Transform { 
+translation 0 50 -450    children USE PARED }
+Transform { 
+translation 75 0 -450    children USE ESQUINA }
+
+Transform { 
+translation -75 0 -450    children USE ESQUINA }
+
+Transform { 
+translation 150 0 -450    children USE VENTANA }
+Transform { 
+translation 150 -50 -450    children USE PARED }
+Transform { 
+translation 150 50 -450    children USE PARED }
+
+Transform { 
+translation 225 0 -450    children USE ESQUINA }
+
+Transform { 
+translation 300 0 -450    children USE VENTANA }
+Transform { 
+translation 300 -50 -450    children USE PARED }
+Transform { 
+translation 300 50 -450    children USE PARED }
+
+
+#ATRASSSSSSSSS
+Transform { 
+translation 375 50 -75    children USE PARED2 }
+
+Transform { 
+translation 375 0 0    children USE ESQUINA }
+
+
+Transform { 
+translation 375 0 0    children USE ESQUINA }
+
+Transform { 
+translation 375 0 -225    children USE VENTANA2 }
+Transform { 
+translation 375 -50 -225    children USE PARED2 }
+
+Transform { 
+translation 375 0 -75    children USE VENTANA2 }
+Transform { 
+translation 375 -50 -75    children USE PARED2 }
+
+Transform { 
+translation 375 50 -225    children USE PARED2 }
+
+Transform { 
+translation 375 0 -150    children USE ESQUINA }
+Transform { 
+translation 375 0 -300    children USE ESQUINA }
+
+Transform { 
+translation 375 50 -375    children USE PARED2 }
+
+Transform { 
+translation 375 0 -375    children USE VENTANA2 }
+Transform { 
+translation 375 -50 -375    children USE PARED2 }
+Transform { 
+translation 375 0 -450    children USE ESQUINA }
+
+#troooooooooooooo
+Transform { 
+translation -75 50 -75    children USE PARED2 }
+
+Transform { 
+translation -75 0 0    children USE ESQUINA }
+
+
+Transform { 
+translation -75 0 0    children USE ESQUINA }
+
+Transform { 
+translation -75 0 -225    children USE VENTANA2 }
+Transform { 
+translation -75 -50 -225    children USE PARED2 }
+
+Transform { 
+translation -75 0 -75    children USE VENTANA2 }
+Transform { 
+translation -75 -50 -75    children USE PARED2 }
+
+Transform { 
+translation -75 50 -225    children USE PARED2 }
+
+Transform { 
+translation -75 0 -150    children USE ESQUINA }
+Transform { 
+translation -75 0 -300    children USE ESQUINA }
+
+Transform { 
+translation -75 50 -375    children USE PARED2 }
+
+Transform { 
+translation -75 0 -375    children USE VENTANA2 }
+Transform { 
+translation -75 -50 -375    children USE PARED2 }
+Transform { 
+translation -75 0 -450    children USE ESQUINA }
+#lololo
+Transform { 
+translation 150 80 -220    children USE PISO }
+
+
+      ]
+    }
+  ]
+}
+
+
+
+DEF PEPA2 Group {
+      children [
+        Transform { 
+
+translation 0 0 0    children USE PEPA }
+       
+      ]
+    }
+
+DEF PEPA3 Group {
+      children [
+        Transform { 
+
+translation 0 160 0    children USE PEPA2 }
+Transform { 
+translation 0 320 0    children USE PEPA2 }
+Transform { 
+translation 0 480 0    children USE PEPA2 }
+Transform { 
+translation 0 640 0    children USE PEPA2 }
+Transform { 
+translation 0 800 0    children USE PEPA2 }
+Transform { 
+translation 0 960 0    children USE PEPA2 }
+Transform { 
+translation 150 1000 -200    children USE BOLA }
+Transform { 
+translation 0 0 0    children USE PEPA123 }
+
+       
+      ]
+    }
+
+
+DEF PORFIN Group {
+      children [
+        Transform { 
+
+translation 0 0 0    children USE PEPA3 }
+
+
+       
+      ]
+    }
+
+
+
+
+
+
