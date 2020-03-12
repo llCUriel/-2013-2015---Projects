@@ -1,6 +1,6 @@
 # 2012-Projects
 
-##Fictitious City
+<h1></h1>
 
 <img src="ss/city2.png" width="100%">
 <img src="ss/city.png" width="100%">
