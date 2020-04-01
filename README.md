@@ -3,6 +3,9 @@
 ## Fun and games
 
 <img src="ss/funandgames.png" width="100%">
+
+## Mexican Lottery
+
 <img src="ss/loteria2.png" width="100%">
 <img src="ss/loteria3.png" width="100%">
 
