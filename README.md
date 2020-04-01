@@ -15,5 +15,5 @@
 
 ## Memory Game
 
-<center><img src="ss/memo.png" width="60%"></center>
-<center><img src="ss/memo2.png" width="60%"></center>
+<p align="center"> <img src="ss/memo.png" width="100%"></p>
+<p align="center"> <img src="ss/memo2.png" width="100%"></p>
