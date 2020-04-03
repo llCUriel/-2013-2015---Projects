@@ -9,6 +9,17 @@
 <img src="ss/loteria2.png" width="100%">
 <img src="ss/loteria3.png" width="100%">
 
+## Space invaders
+
+<img src="ss/home.png" width="100%">
+<img src="ss/game.png" width="100%">
+<img src="ss/gameover.png" width="100%">
+<img src="ss/gp.png" width="100%">
+<img src="ss/preg.png" width="100%">
+<img src="ss/puntaje.png" width="100%">
+<img src="ss/addp.png" width="100%">
+
+
 ## Fictitious City
 
 <img src="ss/city2.png" width="100%">
