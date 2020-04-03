@@ -3,6 +3,7 @@
 ## Fun and games
 
 <img src="ss/funandgames.png" width="100%">
+<img src="ss/register.png" width="100%">
 
 ## Multiplayer Mexican lottery with sockets
 
