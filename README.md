@@ -4,7 +4,7 @@
 
 <img src="ss/funandgames.png" width="100%">
 
-## Mexican Lottery
+## Multiplayer Mexican lottery with sockets
 
 <img src="ss/loteria2.png" width="100%">
 <img src="ss/loteria3.png" width="100%">
