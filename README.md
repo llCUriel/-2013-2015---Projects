@@ -9,6 +9,9 @@
 <img src="ss/loteria2.png" width="100%">
 <img src="ss/loteria3.png" width="100%">
 
+## Flappy bird
+<p align="center"> <img src="ss/flappy.png" width="50%"></p>
+
 ## Space invaders
 
 <img src="ss/home.png" width="100%">
