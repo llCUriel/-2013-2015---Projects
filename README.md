@@ -41,3 +41,7 @@
 
 <p align="center"> <img src="ss/calculo.png" width="50%"></p>
 
+## Star
+
+<p align="center"> <img src="ss/star.png" width="50%"></p>
+
