@@ -1,6 +1,6 @@
 # (2013-2015) Projects
 
-## Bowyer–Watson Algorithm Implementation
+## Bowyer–Watson Algorithm
 <img src="ss/msp.png" width="100%">
 <img src="ss/msp2.png" width="100%">
 
